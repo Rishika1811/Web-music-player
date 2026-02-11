@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="in.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1 id="title">Log In</h1>
+            <p id="error"></p>
+            <form >
+                <div class="input"> 
+                    <div>
+                        <i class="fa-solid fa-at"></i>
+                        <input type="email" placeholder="Email" id="mail">
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Password" id="pass">
+                    </div>
+                    <span class="rem">
+                        <input type="checkbox" id="rememberMe">
+                        <label for="rememberMe">Remember Me</label>
+                    </span>    
+                </div>
+                <div class="btn">
+                    <button id="sub">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="validation.js"></script>
+</body>
+</html>
